@@ -120,95 +120,41 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4922208606301814, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+    - target: {fileID: 4841985324513654, guid: f55e0d1a975769a4781662d45895c164, type: 2}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1602890380115402, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
-      propertyPath: m_Name
-      value: Exit
-      objectReference: {fileID: 0}
-    - target: {fileID: 212789921889808950, guid: d5841b9a5b939c84696de55007ed5e2b,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300040, guid: fbe1e7b94bb1a4a099d5bcb15a00141c,
-        type: 3}
-    - target: {fileID: 1602890380115402, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
-      propertyPath: m_TagString
-      value: Exit
-      objectReference: {fileID: 0}
-    - target: {fileID: 212789921889808950, guid: d5841b9a5b939c84696de55007ed5e2b,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1861650685
-      objectReference: {fileID: 0}
-    - target: {fileID: 212789921889808950, guid: d5841b9a5b939c84696de55007ed5e2b,
-        type: 2}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: f55e0d1a975769a4781662d45895c164, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &210968997 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1602890380115402, guid: d5841b9a5b939c84696de55007ed5e2b,
-    type: 2}
-  m_PrefabInternal: {fileID: 210968996}
---- !u!61 &210968998
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 210968997}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &959401590
 GameObject:
   m_ObjectHideFlags: 0
