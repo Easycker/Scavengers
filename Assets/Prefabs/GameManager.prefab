@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1881145116823550}
+  m_IsPrefabParent: 1
+--- !u!1 &1881145116823550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4865275009346308}
+  - component: {fileID: 114079887921770920}
+  - component: {fileID: 114367658116289128}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4865275009346308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881145116823550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114079887921770920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881145116823550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c11c6abb0b3f734b9d0c797ea3d252c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rows: 8
+  cols: 8
+  wallCount:
+    maximum: 9
+    minimum: 5
+  foodCount:
+    maximum: 5
+    minimum: 1
+  exit: {fileID: 1865997144913974, guid: be7edb37e24abc541a10624f21d272c5, type: 2}
+  wallTiles:
+  - {fileID: 1408961202824238, guid: 1131c37bcf14ed84f97d88fe29cd0ee6, type: 2}
+  - {fileID: 1050027117609822, guid: 8054ce42375ba504b8288f14ac8e4b05, type: 2}
+  - {fileID: 1704130326287998, guid: 275321681c619fa4599c1f89a2dcc097, type: 2}
+  - {fileID: 1270522189403902, guid: 472c1acba508db948ae6cded08e1e9d5, type: 2}
+  - {fileID: 1378190133977604, guid: 3ff6a5105f76fc14299cebfb2c075fd9, type: 2}
+  - {fileID: 1044902163941974, guid: 99ebdf70927ad4d4f936c73bc1da6bb7, type: 2}
+  - {fileID: 1020442781509956, guid: ffe44b77afb439e44a8c29f573ccd9c4, type: 2}
+  - {fileID: 1572582338934952, guid: f55e0d1a975769a4781662d45895c164, type: 2}
+  foodTiles:
+  - {fileID: 1243727857654272, guid: 93713e86d9e1e1646a286c3159008838, type: 2}
+  - {fileID: 1346187064104392, guid: 2c7873ae549129345b65b7f55f4c02c6, type: 2}
+  enemyTiles:
+  - {fileID: 1379900229084734, guid: 0c128c839e74fed44b6fd03197920176, type: 2}
+  - {fileID: 1229322282054306, guid: cfb8d41a6bdf960408655a64fa88336b, type: 2}
+  floorTiles:
+  - {fileID: 1856720700263044, guid: 9d586162d4608cf4e9ed030f513f07ce, type: 2}
+  - {fileID: 1341039582937664, guid: f28a786be9be8264d82c54bb07c1d1fa, type: 2}
+  - {fileID: 1180905247436664, guid: e8706a2d6745371458c14e4c49ecebd0, type: 2}
+  - {fileID: 1921404423717798, guid: ea1020828960e2a46b02d8677a0bb4cd, type: 2}
+  - {fileID: 1674456958486394, guid: e070e1f7e64fa564e8deac32b5f3fab1, type: 2}
+  - {fileID: 1952033493901558, guid: 9c440e3940bc721428d4a422f3d7a3b0, type: 2}
+  - {fileID: 1926054191849842, guid: 32bc754f3fab1c9479f8ea8375a60d78, type: 2}
+  - {fileID: 1602890380115402, guid: d5841b9a5b939c84696de55007ed5e2b, type: 2}
+  outerwallTiles:
+  - {fileID: 1861533341253754, guid: 0c6a1d685edf4554b9d3300acdc5e6c1, type: 2}
+  - {fileID: 1929113423925052, guid: 9d10171d37e6d074f8a2bb2919b35f99, type: 2}
+  - {fileID: 1560338667831516, guid: ce21c03465f09384a8bf028432ad8ed0, type: 2}
+--- !u!114 &114367658116289128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881145116823550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635e7bf6104fcd444a91143b830a02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 0}
