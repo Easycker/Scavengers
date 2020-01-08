@@ -1,0 +1,3 @@
+This is my own version of the 2D game tutorial on Unity's official site. If you are interested in this project, please follow this [link](https://learn.unity.com/project/2d-roguelike-tutorial) to build your own game.
+
+Over the course of the project you will create procedural tile-based levels, implement turn-based movement, add a hunger system, and finally add audio and mobile touch controls. This video series was filmed in Unity 5, but is compatible with Unity 4.6 as well.
